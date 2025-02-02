@@ -1,8 +1,7 @@
 # UniFi_with_S2S_and_DNS_on_remote_Site
 How to use DNS in remote network when connecting Site-2-Site VPN on UDM or UDR.
 
-
-![S2S VPN](https://github.com/user-attachments/assets/fceccda7-b664-4fe7-b3e2-983937aac456)
+![S2S VPN](https://github.com/user-attachments/assets/1918cfb3-bc2e-437d-8ef2-733fb0cdd3d1)
 
 So, we have a configured site-2-site VPN according to the diagram in the figure, ping works between networks, we can open shared resources by accessing hosts by IP address, but we do not understand why, having specified the DNS server 10.0.10.15 in the DHCP UDR setting, clients in "office 2" cannot resolve the host name in "office 1" without receiving a response from it?
 What settings need to be made on the UniFi router for everything to work?
